@@ -67,6 +67,8 @@ Want to add a new dataset or improve metadata?
 | Carolina Materials DB          | Hypothetical crystals   | 214k structures          | Computational | JSON        | CC BY 4.0   | Open       | [carolinamatdb.org](http://www.carolinamatdb.org) |
 | NOMAD          | Various DFT/MD   | >19M calculations          | Computational | JSON        | CC BY 4.0   | Open       | [NOMAD Repository](https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries) |
 | MatPES | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON | | Open | [MatPES](https://matpes.ai) 
+| Vector-QM24 | Small organic and inorganic molecules | 577k conformational isomers | Computational | JSON | Placeholder | Open | [V-QM24](https://doi.org/10.5281/zenodo.11164951) |
+| AIMNet2 Dataset | Non-metallic compounds | 20M hybrid DFT calculations | Computational | JSON | Open | Open | [AIMNet](https://doi.org/10.1184/R1/27629937.v1) |
 
 
 
@@ -113,7 +115,7 @@ Want to add a new dataset or improve metadata?
 ## TODO
 * Classify and add [CRIPT](https://www.criptapp.org) for polymer data
 * Classify and add [Polymer Genome](https://khazana.gatech.edu) and other datasets from Khazana
-* A dataset on solubilities of gases in polymers (15 000 experimental measurements of 79 gases’ uptakes (0.01–50 wt%) in 102 different polymers, pressures from 1 × 10−3 to 7 × 102 bar and temperatures from 233 to 508 K, includes nearly 500 solvent–polymer systems). Optimized structures of various repeating units are included. Should it be of interest for you, it is available here: [Data](https://github.com/Shorku/rhnet/tree/main/data)
+* A dataset on solubilities of gases in polymers (15 000 experimental measurements of 79 gases' uptakes (0.01–50 wt%) in 102 different polymers, pressures from 1 × 10−3 to 7 × 102 bar and temperatures from 233 to 508 K, includes nearly 500 solvent–polymer systems). Optimized structures of various repeating units are included. Should it be of interest for you, it is available here: [Data](https://github.com/Shorku/rhnet/tree/main/data)
 * Add [Materials Cloud Datasets](https://www.materialscloud.org/discover/menu)
 * Classify [Atomly](https://atomly.net/#/). A bit challenging with non-English
 * Look into adding NOMAD for experimental data as well
