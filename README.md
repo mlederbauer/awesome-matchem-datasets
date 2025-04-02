@@ -113,6 +113,7 @@ Want to add a new dataset or improve metadata?
 ## TODO
 * Classify and add [CRIPT](https://www.criptapp.org) for polymer data
 * Classify and add [Polymer Genome](https://khazana.gatech.edu) and other datasets from Khazana
+* A dataset on solubilities of gases in polymers (15 000 experimental measurements of 79 gases’ uptakes (0.01–50 wt%) in 102 different polymers, pressures from 1 × 10−3 to 7 × 102 bar and temperatures from 233 to 508 K, includes nearly 500 solvent–polymer systems). Optimized structures of various repeating units are included. Should it be of interest for you, it is available here: [Data](https://github.com/Shorku/rhnet/tree/main/data)
 
 ---
 
