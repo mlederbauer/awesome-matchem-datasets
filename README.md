@@ -79,7 +79,6 @@ Want to add a new dataset or improve metadata?
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
 | Crystallography Open Database  | Crystal structures       | 523k+ entries            | Experimental  | CIF         | Public Domain | Open    | [crystallography.net](https://www.crystallography.net) |
-| PoLyInfo                       | Polymers & properties    | 500k+ data points        | Experimental  | CSV         | Open        | Open       | [polymer.nims.go.jp](https://polymer.nims.go.jp/en/) |
 | NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
 
@@ -105,6 +104,7 @@ Want to add a new dataset or improve metadata?
 | Reaxys (Elsevier)              | Reactions & properties  | Millions of reactions    | Proprietary | Rich curated literature reaction data |
 | Citrine Informatics DB         | Experimental materials  | Private                  | Proprietary | Materials ML platform w/ industry data |
 | CSD (Cambridge)                | Organic crystals        | 1.3M+                    | Proprietary | Gold-standard X-ray structures |
+| [PoLyInfo](https://polymer.nims.go.jp/en/)   | Polymers & properties   | 500k+ data points / Experimental       | Proprietary  | Polymer properties from literature sources |
 
 ### Dataset Resources
 * [The Materials Data Facility](https://www.materialsdatafacility.org) - Over 100 TB of open materials data. #TODO list some of these in the tables above
@@ -117,6 +117,8 @@ Want to add a new dataset or improve metadata?
 * Add [Materials Cloud Datasets](https://www.materialscloud.org/discover/menu)
 * Classify [Atomly](https://atomly.net/#/). A bit challenging with non-English
 * Look into adding NOMAD for experimental data as well
+* Review [Alexandria Materials](https://alexandria.icams.rub.de)
+
 ---
 
 ### Other Links
