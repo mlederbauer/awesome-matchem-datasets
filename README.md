@@ -44,8 +44,6 @@ Want to add a new dataset or improve metadata?
    - Domain
    - Type (`Computational`, `Experimental`, `Literature-mined`)
    - Size
-   - Quality (1–5 stars)
-   - Suitability for ML (1–5 stars)
    - Access (Open/Restricted/Proprietary)
    - Format (JSON, CSV, CIF, HDF5, SMILES, etc.)
    - License
@@ -63,10 +61,13 @@ Want to add a new dataset or improve metadata?
 | OMat24 (Meta)                  | Inorganic crystals      | 110M DFT entries         | Computational | JSON/HDF5   | CC BY 4.0   | Open       | [OMat24](https://huggingface.co/datasets/fairchem/OMAT24) |
 | Materials Project (LBL)        | Inorganic crystals      | 500k+ compounds          | Computational | JSON/API    | CC BY 4.0   | Open       | [materialsproject.org](https://materialsproject.org) |
 | Open Catalyst 2020 (OC20)      | Catalysis (surfaces)    | 1.2M relaxations         | Computational | JSON/HDF5   | CC BY 4.0   | Open       | [opencatalystproject.org](https://opencatalystproject.org) |
-| AFLOW                          | Inorganic materials     | 3.5M materials           | Computational | REST API    | Open        | Open       | [aflow.org](http://aflow.org) |
-| OQMD                          | Inorganic solids        | 1M+ compounds            | Computational | SQL/CSV     | Open        | Open       | [oqmd.org](http://oqmd.org) |
-| JARVIS-DFT (NIST)              | 3D/2D materials          | 40k+ entries             | Computational | JSON/API    | Open        | Open       | [jarvis.nist.gov](https://jarvis.nist.gov) |
-| Carolina Materials DB          | Hypothetical crystals   | 214k structures          | Computational | JSON        | CC BY 4.0   | Open       | [carolinamatdb.org](https://www.carolinamatdb.org) |
+| AFLOW                          | Inorganic materials     | 3.5M materials           | Computational | REST API    | Open        | Open       | [aflow.org](https://aflow.org) |
+| OQMD                          | Inorganic solids        | 1M+ compounds            | Computational | SQL/CSV     | Open         | Open       | [oqmd.org](https://oqmd.org) |
+| JARVIS-DFT (NIST)              | 3D/2D materials          | 40k+ entries             | Computational | JSON/API    | Open       | Open       | [jarvis.nist.gov](https://jarvis.nist.gov) |
+| Carolina Materials DB          | Hypothetical crystals   | 214k structures          | Computational | JSON        | CC BY 4.0   | Open       | [carolinamatdb.org](http://www.carolinamatdb.org) |
+| NOMAD          | Various DFT/MD   | >19M calculations          | Computational | JSON        | CC BY 4.0   | Open       | [NOMAD Repository](https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries) |
+
+
 
 ---
 
@@ -74,7 +75,7 @@ Want to add a new dataset or improve metadata?
 
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
-| Crystallography Open Database  | Crystal structures       | 523k+ entries            | Experimental  | CIF         | Public Domain | Open    | [crystallography.net](http://www.crystallography.net) |
+| Crystallography Open Database  | Crystal structures       | 523k+ entries            | Experimental  | CIF         | Public Domain | Open    | [crystallography.net](https://www.crystallography.net) |
 | PoLyInfo                       | Polymers & properties    | 500k+ data points        | Experimental  | CSV         | Open        | Open       | [polymer.nims.go.jp](https://polymer.nims.go.jp/en/) |
 | NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
@@ -101,6 +102,14 @@ Want to add a new dataset or improve metadata?
 | Reaxys (Elsevier)              | Reactions & properties  | Millions of reactions    | Proprietary | Rich curated literature reaction data |
 | Citrine Informatics DB         | Experimental materials  | Private                  | Proprietary | Materials ML platform w/ industry data |
 | CSD (Cambridge)                | Organic crystals        | 1.3M+                    | Proprietary | Gold-standard X-ray structures |
+
+### Dataset Resources
+* [The Materials Data Facility](https://www.materialsdatafacility.org) - Over 100 TB of open materials data. #TODO list some of these in the tables above
+* [Foundry-ML](https://materialsdatafacility.org/portal) *search Foundry* - 61 structured datasets ready for download through a Python client #TODO list some of these in the tables above
+
+## TODO
+* Classify and add [CRIPT](https://www.criptapp.org) for polymer data
+* Classify and add [Polymer Genome](https://khazana.gatech.edu) and other datasets from Khazana
 
 ---
 
