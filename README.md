@@ -113,6 +113,11 @@ Want to add a new dataset or improve metadata?
 
 ---
 
+### Other Links
+* [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics)
+
+---
+
 ## License
 
 This project is licensed under the **MIT License**. Each dataset listed has its **own license**, noted in the table. Always check the source's license before using the data in your project.
