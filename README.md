@@ -120,7 +120,8 @@ Want to add a new dataset or improve metadata?
 * Classify [Atomly](https://atomly.net/#/). A bit challenging with non-English
 * Look into adding NOMAD for experimental data as well
 * Review [Alexandria Materials](https://alexandria.icams.rub.de)
-
+* Add A Quantum-Chemical Bonding Database for Solid-State Materials Part 1: https://zenodo.org/records/8091844 Part 2: https://zenodo.org/records/8092187
+* Add QM datasets. http://quantum-machine.org/datasets/
 ---
 
 ### Other Links
