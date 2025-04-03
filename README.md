@@ -69,6 +69,8 @@ Want to add a new dataset or improve metadata?
 | MatPES | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON | | Open | [MatPES](https://matpes.ai) 
 | Vector-QM24 | Small organic and inorganic molecules | 577k conformational isomers | Computational | JSON | Placeholder | Open | [V-QM24](https://doi.org/10.5281/zenodo.11164951) |
 | AIMNet2 Dataset | Non-metallic compounds | 20M hybrid DFT calculations | Computational | JSON | Open | Open | [AIMNet](https://doi.org/10.1184/R1/27629937.v1) |
+| RDB7 | Barrier height and enthalpy for small organic reactions | 12k CCSD(T)-F12 calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/13328872) |
+| RDB19-Rad | ΔG of activation and of reaction for organic reactions in 40 common solvents | 5.6k DFT + COSMO-RS calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/11493786) |
 
 
 
