@@ -16,6 +16,7 @@ This project aims to:
 - [Datasets](#datasets)
   - [Computational (DFT, MD)](#computational-datasets)
   - [Experimental](#experimental-datasets)
+  - [LLM Training](#llm-training-datasets)
   - [Literature-mined & Text](#literature-mined--text-datasets)
   - [Proprietary](#proprietary-datasets)
 - [License](#license)
@@ -72,10 +73,6 @@ Want to add a new dataset or improve metadata?
 | RDB7 | Barrier height and enthalpy for small organic reactions | 12k CCSD(T)-F12 calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/13328872) |
 | RDB19-Rad | ΔG of activation and of reaction for organic reactions in 40 common solvents | 5.6k DFT + COSMO-RS calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/11493786) |
 
-
-
-
-
 ---
 
 ### Experimental Datasets
@@ -86,6 +83,19 @@ Want to add a new dataset or improve metadata?
 | NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
 | [opXRD](https://arxiv.org/abs/2503.05577) | Crystal structures |  92552 (2179 labeled) | Experimental | JSON       | CC BY 4.0 | Open | [zenodo.org](https://doi.org/10.5281/zenodo.14254270) |
+
+---
+
+### LLM Training Datasets
+
+| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
+|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
+| SmolInstruct | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open | [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) |
+| CAMEL | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
+| ChemNLP | Chemistry | Extensive | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
+| MaScQA | Materials Science | Various categories | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
+| SciCode | Natural Sciences | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
+
 
 ---
 
