@@ -92,8 +92,8 @@ Want to add a new dataset or improve metadata?
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
 | SmolInstruct | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open | [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) |
 | CAMEL | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
-| ChemNLP | Chemistry | Extensive | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
-| MaScQA | Materials Science | Various categories | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
+| ChemNLP | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
+| MaScQA | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
 | SciCode | Natural Sciences | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
 
 
