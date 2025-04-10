@@ -94,7 +94,7 @@ Want to add a new dataset or improve metadata?
 | CAMEL | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
 | ChemNLP | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
 | MaScQA | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
-| SciCode | Natural Sciences | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
+| SciCode | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
 
 
 ---
