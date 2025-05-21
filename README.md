@@ -60,6 +60,7 @@ Want to add a new dataset or improve metadata?
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
 | OMat24 (Meta)                  | Inorganic crystals      | 110M DFT entries         | Computational | JSON/HDF5   | CC BY 4.0   | Open       | [OMat24](https://huggingface.co/datasets/fairchem/OMAT24) |
+| OMol25 (Meta)                  | Molecular chemistry     | 100M+ DFT calculations   | Computational | LMDB        | CC BY 4.0   | Open       | [OMol25](https://huggingface.co/facebook/OMol25) |
 | Materials Project (LBL)        | Inorganic crystals      | 500k+ compounds          | Computational | JSON/API    | CC BY 4.0   | Open       | [materialsproject.org](https://materialsproject.org) |
 | Open Catalyst 2020 (OC20)      | Catalysis (surfaces)    | 1.2M relaxations         | Computational | JSON/HDF5   | CC BY 4.0   | Open       | [opencatalystproject.org](https://opencatalystproject.org) |
 | AFLOW                          | Inorganic materials     | 3.5M materials           | Computational | REST API    | Open        | Open       | [aflow.org](https://aflow.org) |
@@ -94,6 +95,7 @@ Want to add a new dataset or improve metadata?
 
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
+| ChemPile                       | Chemistry               | 75B+ tokens              | LLM Training | Mixed       | Open        | Open       | [ChemPile](https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1) |
 | SmolInstruct | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open | [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) |
 | CAMEL | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
 | ChemNLP | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
