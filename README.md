@@ -74,6 +74,8 @@ Want to add a new dataset or improve metadata?
 | RDB19-Rad | ΔG of activation and of reaction for organic reactions in 40 common solvents | 5.6k DFT + COSMO-RS calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/11493786) |
 | QCML | Small molecules consisting of up to 8 heavy atoms | 14.7B Semi-empirical + 33.5M DFT calculations | Computational | TFDS | CC BY-NC 4.0 | Open | [Zenodo](https://zenodo.org/records/14859804) |
 
+
+
 ---
 
 ### Experimental Datasets
@@ -84,6 +86,7 @@ Want to add a new dataset or improve metadata?
 | NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
 | [opXRD](https://arxiv.org/abs/2503.05577) | Crystal structures |  92552 (2179 labeled) | Experimental | JSON       | CC BY 4.0 | Open | [zenodo.org](https://doi.org/10.5281/zenodo.14254270) |
+| MDR SuperCon | Superconductivity  | legacy superconductor database w/ material composition, structure, properties, and processes | Mixed |  | CC BY 4.0 | Open | [NIMS MDR]([https://zenodo.org/records/14859804](https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2)) |
 
 ---
 
