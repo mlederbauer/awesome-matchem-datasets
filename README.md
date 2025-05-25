@@ -108,9 +108,9 @@ Want to add a new dataset or improve metadata?
 | ChemRxivQuest | Chemistry literature QA | 970 curated QA pairs | LLM Training | JSON | CC BY 4.0 | Open | [ChemRxivQuest](https://arxiv.org/abs/2505.05232) |
 | ChemBench 4K | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemBench4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) |
 | ZINC20-ML | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES | ZINC License | Open | [ZINC20-ML](https://files.docking.org/zinc20-ML/) |
-| MatSciBERT Corpus | Materials science papers | 285M words (≈3.4B tokens) | LLM Training | Text | Research-only | Restricted | [MatSciBERT](https://doi.org/10.1038/s41524-022-00784-w) |
 | PMC Open Access Subset | Biomedical full-text | 3.4M+ articles | LLM Training | XML | Various CC | Open | [PMC OA](https://huggingface.co/datasets/pmc/open_access) |
 | MatScholar Task-Schema QA (MatSci-NLP) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-NLP](https://ar5iv.org/pdf/2305.08264) |
+|Mol-Instructions | Chemistry | molecular, protein, and biochemical instructions | LLM Training | HuggingFace Dataset  |  Open | Open | [MolInstructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0)|
 
 
 ---
