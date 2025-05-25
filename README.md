@@ -101,6 +101,16 @@ Want to add a new dataset or improve metadata?
 | ChemNLP | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
 | MaScQA | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
 | SciCode | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
+| ChemData 700K | Chemistry (9 core tasks) | 730K Q-A instruction pairs | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemData700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) |
+| MatSci-Instruct (HoneyBee) | Materials science | ≈55K verified instructions | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-Instruct](https://zenodo.org/record/10119842) |
+| MoleculeQA | Molecular properties & safety | 62K multiple-choice QA pairs | LLM Training | JSON | MIT | Open | [MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) |
+| BioInstruct 25K | Biomedical / biochemistry | 25K GPT-4 generated instructions | LLM Training | JSON | MIT | Open | [BioInstruct](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) |
+| ChemRxivQuest | Chemistry literature QA | 970 curated QA pairs | LLM Training | JSON | CC BY 4.0 | Open | [ChemRxivQuest](https://arxiv.org/abs/2505.05232) |
+| ChemBench 4K | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemBench4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) |
+| ZINC20-ML | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES | ZINC License | Open | [ZINC20-ML](https://files.docking.org/zinc20-ML/) |
+| MatSciBERT Corpus | Materials science papers | 285M words (≈3.4B tokens) | LLM Training | Text | Research-only | Restricted | [MatSciBERT](https://doi.org/10.1038/s41524-022-00784-w) |
+| PMC Open Access Subset | Biomedical full-text | 3.4M+ articles | LLM Training | XML | Various CC | Open | [PMC OA](https://huggingface.co/datasets/pmc/open_access) |
+| MatScholar Task-Schema QA (MatSci-NLP) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-NLP](https://ar5iv.org/pdf/2305.08264) |
 
 
 ---
