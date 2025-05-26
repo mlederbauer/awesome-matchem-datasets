@@ -115,27 +115,27 @@ Want to add a new dataset or improve metadata?
 
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
-| ChemPile                       | Chemistry               | 75B+ tokens              | LLM Training | Mixed       | Open        | Open       | [ChemPile](https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1) |
-| SmolInstruct | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open | [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) |
-| CAMEL | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
-| ChemNLP | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
-| ChemQA | Chemistry | Multimodal QA dataset | LLM Training | JSON | Open | Open | [ChemQA](https://github.com/OpenDFM/ChemLLMBench) |
-| ChemLLMBench | Chemistry | 8 chemistry tasks benchmark | LLM Training | JSON | Open | Open | [ChemLLMBench](https://github.com/OpenDFM/ChemLLMBench) |
-| ChemistryQA | Chemistry | 4,500 questions across 200 topics | LLM Training | JSON | Open | Open | [ChemistryQA](https://huggingface.co/datasets/OpenDFM/ChemistryQA) |
-| MaScQA | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
-| SciCode | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
-| ChemData 700K | Chemistry (9 core tasks) | 730K Q-A instruction pairs | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemData700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) |
-| MatSci-Instruct (HoneyBee) | Materials science | ≈55K verified instructions | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-Instruct](https://zenodo.org/record/10119842) |
-| MoleculeQA | Molecular properties & safety | 62K multiple-choice QA pairs | LLM Training | JSON | MIT | Open | [MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) |
-| BioInstruct 25K | Biomedical / biochemistry | 25K GPT-4 generated instructions | LLM Training | JSON | MIT | Open | [BioInstruct](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) |
-| Lab-Bench | Biology | 2,400+ questions for biology agents | LLM Training | JSON | Open | Open | [Lab-Bench](https://github.com/microsoft/LabBench) |
-| ChemBench 4K | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemBench4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) |
-| GPQA Diamond | Biology, Physics, Chemistry | 448 multiple-choice questions | LLM Training | JSON | Open | Open | [GPQA](https://github.com/idavidrein/gpqa) |
-| SciAssess | Scientific literature analysis | Benchmark for LLMs in science | LLM Training | JSON | Open | Open | [SciAssess](https://github.com/sci-assess/SciAssess) |
-| ZINC20-ML | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES | ZINC License | Open | [ZINC20-ML](https://files.docking.org/zinc20-ML/) |
-| PMC Open Access Subset | Biomedical full-text | 3.4M+ articles | LLM Training | XML | Various CC | Open | [PMC OA](https://huggingface.co/datasets/pmc/open_access) |
-| MatScholar Task-Schema QA (MatSci-NLP) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-NLP](https://ar5iv.org/pdf/2305.08264) |
-|Mol-Instructions | Chemistry | molecular, protein, and biochemical instructions | LLM Training | HuggingFace Dataset  |  Open | Open | [MolInstructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0)|
+| [📥 ChemPile](https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1)                       | Chemistry               | 75B+ tokens              | LLM Training | Mixed       | Open        | Open       | [ChemPile](https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1) |
+| [📥 SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open | [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) |
+| [📥 CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
+| [📥 ChemNLP](https://github.com/OpenBioML/chemnlp) | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
+| [📥 ChemQA](https://github.com/ChemFoundationModels/ChemLLMBench) | Chemistry | Multimodal QA dataset | LLM Training | JSON | Open | Open | [ChemQA](https://github.com/ChemFoundationModels/ChemLLMBench) |
+| [📥 ChemLLMBench](https://github.com/ChemFoundationModels/ChemLLMBench) | Chemistry | 8 chemistry tasks benchmark | LLM Training | JSON | Open | Open | [ChemLLMBench](https://github.com/ChemFoundationModels/ChemLLMBench) |
+| [📥 ChemistryQA](https://github.com/microsoft/chemistry-qa) | Chemistry | 4,500 questions across 200 topics | LLM Training | JSON | Open | Open | [ChemistryQA](https://github.com/microsoft/chemistry-qa) |
+| [📥 MaScQA](https://github.com/abhijeetgangan/MaSTeA) | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
+| [📥 SciCode](https://scicode-bench.github.io) | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
+| [📥 ChemData 700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) | Chemistry (9 core tasks) | 730K Q-A instruction pairs | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemData700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) |
+| [📥 MatSci-Instruct (HoneyBee)](https://zenodo.org/record/10119842) | Materials science | ≈55K verified instructions | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-Instruct](https://zenodo.org/record/10119842) |
+| [📥 MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) | Molecular properties & safety | 62K multiple-choice QA pairs | LLM Training | JSON | MIT | Open | [MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) |
+| [📥 BioInstruct 25K](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) | Biomedical / biochemistry | 25K GPT-4 generated instructions | LLM Training | JSON | MIT | Open | [BioInstruct](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) |
+| [📥 Lab-Bench](https://huggingface.co/datasets/futurehouse/lab-bench) | Biology | 2,400+ questions for biology agents | LLM Training | JSON | Open | Open | [Lab-Bench](https://huggingface.co/datasets/futurehouse/lab-bench) |
+| [📥 ChemBench 4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemBench4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) |
+| [📥 GPQA Diamond](https://github.com/idavidrein/gpqa) | Biology, Physics, Chemistry | 448 multiple-choice questions | LLM Training | JSON | Open | Open | [GPQA](https://github.com/idavidrein/gpqa) |
+| [📥 SciAssess](https://github.com/sci-assess/SciAssess) | Scientific literature analysis | Benchmark for LLMs in science | LLM Training | JSON | Open | Open | [SciAssess](https://github.com/sci-assess/SciAssess) |
+| [📥 ZINC20-ML](https://files.docking.org/zinc20-ML/) | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES | ZINC License | Open | [ZINC20-ML](https://files.docking.org/zinc20-ML/) |
+| [📥 PMC Open Access Subset](https://huggingface.co/datasets/pmc/open_access) | Biomedical full-text | 3.4M+ articles | LLM Training | XML | Various CC | Open | [PMC OA](https://huggingface.co/datasets/pmc/open_access) |
+| [📥 MatScholar Task-Schema QA (MatSci-NLP)](https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-NLP](https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23) |
+| [📥 Mol-Instructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0) | Chemistry | molecular, protein, and biochemical instructions | LLM Training | HuggingFace Dataset  |  Open | Open | [MolInstructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0)|
 
 
 ---
