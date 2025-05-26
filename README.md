@@ -88,6 +88,26 @@ Want to add a new dataset or improve metadata?
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
 | [opXRD](https://arxiv.org/abs/2503.05577) | Crystal structures |  92552 (2179 labeled) | Experimental | JSON       | CC BY 4.0 | Open | [zenodo.org](https://doi.org/10.5281/zenodo.14254270) |
 | MDR SuperCon | Superconductivity  | legacy superconductor database w/ material composition, structure, properties, and processes | Mixed |  | CC BY 4.0 | Open | [NIMS MDR](https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2)|
+| ChEMBL | Bioactive molecules | 2.3M+ compounds with bioactivity data | Experimental | JSON/SDF | CC BY-SA 3.0 | Open | [ebi.ac.uk/chembl](https://www.ebi.ac.uk/chembl/) |
+| MoleculeNet | Molecular properties | 700k+ compounds across 17 datasets | Experimental | CSV/SDF | Various | Open | [moleculenet.org](http://moleculenet.org/) |
+| QM9 | Small organic molecules | 134k molecules with quantum properties | Experimental | SDF/CSV | CC BY 4.0 | Open | [quantum-machine.org](http://quantum-machine.org/datasets/) |
+| QM7/QM7b | Small molecules | 7k molecules with atomization energies | Experimental | SDF/CSV | CC BY 4.0 | Open | [quantum-machine.org](http://quantum-machine.org/datasets/) |
+| ESOL | Aqueous solubility | 1,128 compounds with solubility data | Experimental | CSV | Open | Open | [moleculenet.org](http://moleculenet.org/) |
+| FreeSolv | Hydration free energy | 643 molecules with experimental data | Experimental | CSV | CC BY 4.0 | Open | [github.com/MobleyLab](https://github.com/MobleyLab/FreeSolv) |
+| Lipophilicity | Octanol/water distribution | 4,200 compounds with logD values | Experimental | CSV | Open | Open | [ChEMBL](https://www.ebi.ac.uk/chembl/) |
+| PCBA | Bioassay screening | 400k+ compounds, 128 bioassays | Experimental | CSV | Open | Open | [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/bioassay) |
+| HIV | Antiviral screening | 41k compounds with HIV inhibition data | Experimental | CSV | Open | Open | [DTP AIDS Antiviral Screen](https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data) |
+| BACE | Beta-secretase inhibitors | 1,522 compounds with IC50 data | Experimental | CSV | Open | Open | [moleculenet.org](http://moleculenet.org/) |
+| BBBP | Blood-brain barrier permeability | 2,053 compounds with permeability data | Experimental | CSV | Open | Open | [moleculenet.org](http://moleculenet.org/) |
+| Tox21 | Toxicity screening | 8k compounds, 12 toxicity targets | Experimental | CSV | Open | Open | [Tox21 Challenge](https://tripod.nih.gov/tox21/challenge/) |
+| ToxCast | High-throughput toxicity | 8k compounds, 600+ assays | Experimental | CSV | Open | Open | [EPA ToxCast](https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data) |
+| SIDER | Drug side effects | 1,427 drugs with adverse reactions | Experimental | CSV | Open | Open | [sideeffects.embl.de](http://sideeffects.embl.de/) |
+| ClinTox | Clinical trial toxicity | 1,491 compounds with FDA approval status | Experimental | CSV | Open | Open | [moleculenet.org](http://moleculenet.org/) |
+| PDBbind | Protein-ligand binding | 19k complexes with binding affinities | Experimental | PDB/SDF | Open | Open | [pdbbind.org.cn](http://www.pdbbind.org.cn/) |
+| BindingDB | Protein-ligand binding | 2.8M+ binding data points | Experimental | CSV/SDF | CC BY 4.0 | Open | [bindingdb.org](https://www.bindingdb.org/) |
+| ProtBENCH | Drug-target interactions | Protein family-specific datasets | Experimental | CSV | GPL-3.0 | Open | [github.com/hevalatas/ProtBENCH](https://github.com/hevalatas/ProtBENCH) |
+| PDBench | Protein sequence design | 595 protein structures, 40 architectures | Experimental | PDB | MIT | Open | [github.com/wells-wood-research/PDBench](https://github.com/wells-wood-research/PDBench) |
+| PDB-Struct | Structure-based protein design | Comprehensive protein design benchmark | Experimental | PDB | Open | Open | [github.com/WANG-CR/PDB-Struct](https://github.com/WANG-CR/PDB-Struct) |
 
 ---
 
@@ -99,14 +119,19 @@ Want to add a new dataset or improve metadata?
 | SmolInstruct | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open | [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) |
 | CAMEL | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open | [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) |
 | ChemNLP | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open | [ChemNLP](https://github.com/OpenBioML/chemnlp) |
+| ChemQA | Chemistry | Multimodal QA dataset | LLM Training | JSON | Open | Open | [ChemQA](https://github.com/OpenDFM/ChemLLMBench) |
+| ChemLLMBench | Chemistry | 8 chemistry tasks benchmark | LLM Training | JSON | Open | Open | [ChemLLMBench](https://github.com/OpenDFM/ChemLLMBench) |
+| ChemistryQA | Chemistry | 4,500 questions across 200 topics | LLM Training | JSON | Open | Open | [ChemistryQA](https://huggingface.co/datasets/OpenDFM/ChemistryQA) |
 | MaScQA | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open | [MaScQA](https://github.com/abhijeetgangan/MaSTeA) |
 | SciCode | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON | Open | Open | [SciCode](https://scicode-bench.github.io) |
 | ChemData 700K | Chemistry (9 core tasks) | 730K Q-A instruction pairs | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemData700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) |
 | MatSci-Instruct (HoneyBee) | Materials science | ≈55K verified instructions | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-Instruct](https://zenodo.org/record/10119842) |
 | MoleculeQA | Molecular properties & safety | 62K multiple-choice QA pairs | LLM Training | JSON | MIT | Open | [MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) |
 | BioInstruct 25K | Biomedical / biochemistry | 25K GPT-4 generated instructions | LLM Training | JSON | MIT | Open | [BioInstruct](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) |
-| ChemRxivQuest | Chemistry literature QA | 970 curated QA pairs | LLM Training | JSON | CC BY 4.0 | Open | [ChemRxivQuest](https://arxiv.org/abs/2505.05232) |
+| Lab-Bench | Biology | 2,400+ questions for biology agents | LLM Training | JSON | Open | Open | [Lab-Bench](https://github.com/microsoft/LabBench) |
 | ChemBench 4K | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON | CC BY-NC 4.0 | Open | [ChemBench4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) |
+| GPQA Diamond | Biology, Physics, Chemistry | 448 multiple-choice questions | LLM Training | JSON | Open | Open | [GPQA](https://github.com/idavidrein/gpqa) |
+| SciAssess | Scientific literature analysis | Benchmark for LLMs in science | LLM Training | JSON | Open | Open | [SciAssess](https://github.com/sci-assess/SciAssess) |
 | ZINC20-ML | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES | ZINC License | Open | [ZINC20-ML](https://files.docking.org/zinc20-ML/) |
 | PMC Open Access Subset | Biomedical full-text | 3.4M+ articles | LLM Training | XML | Various CC | Open | [PMC OA](https://huggingface.co/datasets/pmc/open_access) |
 | MatScholar Task-Schema QA (MatSci-NLP) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open | [MatSci-NLP](https://ar5iv.org/pdf/2305.08264) |
@@ -151,6 +176,8 @@ Want to add a new dataset or improve metadata?
 * Review [Alexandria Materials](https://alexandria.icams.rub.de)
 * Add A Quantum-Chemical Bonding Database for Solid-State Materials Part 1: https://zenodo.org/records/8091844 Part 2: https://zenodo.org/records/8092187
 * Add QM datasets. http://quantum-machine.org/datasets/
+* Find link for | ChemRxivQuest | Chemistry literature QA | 970 curated QA pairs | LLM Training | JSON | CC BY 4.0 | Open | [ChemRxivQuest](https://arxiv.org/abs/2505.05232) |
+
 ---
 
 ### Other Links
