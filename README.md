@@ -225,31 +225,33 @@ If this repository was helpful in your work, feel free to cite or star the repo.
 
 ## Changelog
 
-For changes made before 2025-06-07, please see the [repository commit history](https://github.com/blaiszik/awesome-matchem-datasets/commits).
+### 2024 and Earlier
+For changes made before today, please see the [repository commit history](https://github.com/your-repo/commits).
 
 ### 2025-06-07
+- Enhanced QCML dataset entry with more comprehensive description of coverage and properties
 - Added Changelog section to track repository updates
-Certainly! Below is the Markdown-formatted changelog entry for the additions made on June 7, 2025, to the Awesome Materials & Chemistry Datasets repository:
-
 ⸻
 
-2025-06-07
-	-	Added 12 high-quality datasets across computational, experimental, and literature-mined domains:
-🧮 Computational Datasets
-	-	QMugs: 665k drug-like molecules with ~2M conformers, featuring quantum mechanical properties at both semi-empirical (GFN2-xTB) and DFT (ωB97X-D/def2-SVP) levels.
-	-	C2DB (Computational 2D Materials Database): ~4,000 two-dimensional materials with computed structural, electronic, magnetic, and optical properties.
-	-	ANI-1x / ANI-1ccx: 5 million DFT and 500k CCSD(T) calculations for organic molecules, supporting machine learning potential development.
-	-	CoRE MOF 2019: 14,763 computation-ready metal-organic frameworks with solvent and charge balancing, suitable for high-throughput screening.
-	-	Catalysis-Hub Surface Reactions: Over 100,000 adsorption and reaction energies on catalytic surfaces, accessible via a Python/GraphQL API.
-	-	ODAC23 (Open DAC 2023): 38 million DFT calculations of CO₂/H₂O adsorption on 8,400 MOFs, aimed at direct-air-capture sorbent discovery.
-	-	MOFX-DB: Over 3 million simulated adsorption data points across 160,000 MOFs and 286 zeolites for various gases.
-  - Enhanced QCML dataset entry with more comprehensive description of coverage and properties
+### 2025-06-07
 
-🧪 Experimental Datasets
-	-	HTEM-DB (High-Throughput Experimental Materials Database): More than 140,000 composition–process–property data points from combinatorial sputtering experiments, with optical, electrical, and structural measurements.
-	-	OCx24 (Open Catalyst Experiments 2024): 572 synthesized catalyst inks evaluated with matched XRF/XRD and DFT adsorption energies, bridging the gap between simulation and laboratory data.
-	-	Khazana / Polymer Genome: Approximately 20,000 polymers with DFT-calculated properties and experimental dielectric data, supporting machine learning on soft materials.
+Added 12 high-quality datasets across computational, experimental, and literature-mined domains:
 
-📚 Literature-mined & LLM Training Datasets
-	-	ChemRxivQuest: 970 curated question–answer pairs spanning 17 chemistry subfields, designed for retrieval-augmented generation and factuality assessments.
-	-	USPTO-Lowe Reactions (1976–2016): 1.8 million atom-mapped reactions extracted from US patents, serving as a benchmark for reaction prediction and retrosynthesis models.
+#### 🧮 Computational Datasets
+- **QMugs**: 665k drug-like molecules with ~2M conformers, featuring quantum mechanical properties at both semi-empirical (GFN2-xTB) and DFT (ωB97X-D/def2-SVP) levels.
+- **C2DB (Computational 2D Materials Database)**: ~4,000 two-dimensional materials with computed structural, electronic, magnetic, and optical properties.
+- **ANI-1x / ANI-1ccx**: 5 million DFT and 500k CCSD(T) calculations for organic molecules, supporting machine learning potential development.
+- **CoRE MOF 2019**: 14,763 computation-ready metal-organic frameworks with solvent and charge balancing, suitable for high-throughput screening.
+- **Catalysis-Hub Surface Reactions**: Over 100,000 adsorption and reaction energies on catalytic surfaces, accessible via a Python/GraphQL API.
+- **ODAC23 (Open DAC 2023)**: 38 million DFT calculations of CO₂/H₂O adsorption on 8,400 MOFs, aimed at direct-air-capture sorbent discovery.
+- **MOFX-DB**: Over 3 million simulated adsorption data points across 160,000 MOFs and 286 zeolites for various gases.
+- Enhanced **QCML** dataset entry with more comprehensive description of coverage and properties
+
+#### 🧪 Experimental Datasets
+- **HTEM-DB (High-Throughput Experimental Materials Database)**: More than 140,000 composition–process–property data points from combinatorial sputtering experiments, with optical, electrical, and structural measurements.
+- **OCx24 (Open Catalyst Experiments 2024)**: 572 synthesized catalyst inks evaluated with matched XRF/XRD and DFT adsorption energies, bridging the gap between simulation and laboratory data.
+- **Khazana / Polymer Genome**: Approximately 20,000 polymers with DFT-calculated properties and experimental dielectric data, supporting machine learning on soft materials.
+
+#### 📚 Literature-mined & LLM Training Datasets
+- **ChemRxivQuest**: 970 curated question–answer pairs spanning 17 chemistry subfields, designed for retrieval-augmented generation and factuality assessments.
+- **USPTO-Lowe Reactions (1976–2016)**: 1.8 million atom-mapped reactions extracted from US patents, serving as a benchmark for reaction prediction and retrosynthesis models.
