@@ -76,7 +76,13 @@ Want to add a new dataset or improve metadata?
 | [QCML](https://zenodo.org/records/14859804) | Small molecules consisting of up to 8 heavy atoms | 14.7B Semi-empirical + 33.5M DFT calculations | Computational | TFDS | CC BY-NC 4.0 | Open |
 | [QM9](http://quantum-machine.org/datasets/) | Small organic molecules | 134k molecules with quantum properties | Experimental | SDF/CSV | CC BY 4.0 | Open |
 | [QM7/QM7b](http://quantum-machine.org/datasets/) | Small molecules | 7k molecules with atomization energies | Experimental | SDF/CSV | CC BY 4.0 | Open |
-
+| [QMugs](https://www.nature.com/articles/s41597-022-01390-7) | Drug-like molecules | 665 k mol / 2 M conf | Computational | HDF5 | CC BY 4.0 | Open |
+| [C2DB](https://c2db.fysik.dtu.dk) | 2-D materials | ~4 000 entries | Computational | JSON/API | CC BY 4.0 | Open |
+| [ANI-1x / 1ccx](https://qcawebapps.molssi.org/ml_datasets/) | Small organic mol | 5 M (DFT) + 0.5 M (CCSD) | Computational | HDF5 | CC BY-NC 4.0 | Open |
+| [CoRE MOF 2019](https://pubs.acs.org/doi/10.1021/acs.jced.9b00835) | Metal-organic frameworks | 14 763 structures | Computational | CIF/JSON | CC BY 4.0 | Open |
+| [Catalysis-Hub](https://www.catalysis-hub.org) | Surface reactions | >100 k energies | Computational | JSON/API | CC BY 4.0 | Open |
+| [ODAC23](https://arxiv.org/abs/2311.00341) | MOF + CO₂/H₂O adsorption | 38 M DFT calcs | Computational | HDF5 | CC BY 4.0 | Open |
+| [MOFX-DB](https://doi.org/10.1021/acs.jced.2c00583) | Gas adsorption in MOFs | 3 M isotherm pts | Computational | CSV/HDF5 | CC BY 4.0 | Open |
 
 
 
@@ -109,6 +115,11 @@ Want to add a new dataset or improve metadata?
 | [ProtBENCH](https://github.com/hevalatas/ProtBENCH) | Drug-target interactions | Protein family-specific datasets | Experimental | CSV | GPL-3.0 | Open |
 | [PDBench](https://github.com/wells-wood-research/PDBench) | Protein sequence design | 595 protein structures, 40 architectures | Experimental | PDB | MIT | Open |
 | [PDB-Struct](https://github.com/WANG-CR/PDB-Struct) | Structure-based protein design | Comprehensive protein design benchmark | Experimental | PDB | Open | Open |
+| [HTEM-DB](https://htem.nrel.gov) | Thin-film composition libraries | 140 k+ samples | Experimental | JSON/API | CC0 | Open |
+| [OCx24](https://arxiv.org/html/2411.11783v1) | Electrocatalyst inks | 572 samples (+DFT) | Experimental | CSV | CC BY 4.0 | Open |
+| [Polymer Genome](https://khazana.gatech.edu/dataset/) | Polymers | 20 k polymers | Experimental + Comp | CSV/JSON | CC BY 4.0 | Open |
+
+
 
 ---
 
@@ -138,7 +149,8 @@ Want to add a new dataset or improve metadata?
 | [MatScholar Task-Schema QA (MatSci-NLP)](https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open |
 | [Mol-Instructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0) | Chemistry | molecular, protein, and biochemical instructions | LLM Training | HuggingFace Dataset  |  Open | Open |
 | [USPTO-LLM](https://zenodo.org/records/14396156) | Chemical reactions | 247K reactions | LLM Training | JSON/Graph | CC BY 4.0 | Open |
-
+| [ChemRxivQuest](https://arxiv.org/abs/2505.05232) | Chem literature QA | 970 QA pairs | LLM Training | JSON | CC BY 4.0 | Open |
+| [USPTO-Lowe](https://figshare.com/articles/dataset/5104873) | Patent reactions | 1.8 M reactions | Literature-mined | RXN/SMILES | CC BY 4.0 | Open |
 
 ---
 
@@ -208,3 +220,34 @@ Thanks to the open data and research communities including:
 ## Citation
 
 If this repository was helpful in your work, feel free to cite or star the repo. You can also reference the underlying dataset publications linked above.
+
+## Changelog
+
+For changes made before 2025-06-07, please see the [repository commit history](https://github.com/blaiszik/awesome-matchem-datasets/commits).
+
+### 2025-06-07
+- Added Changelog section to track repository updates
+Certainly! Below is the Markdown-formatted changelog entry for the additions made on June 7, 2025, to the Awesome Materials & Chemistry Datasets repository:
+
+⸻
+
+2025-06-07
+	-	Added 12 high-quality datasets across computational, experimental, and literature-mined domains:
+🧮 Computational Datasets
+	-	QMugs: 665k drug-like molecules with ~2M conformers, featuring quantum mechanical properties at both semi-empirical (GFN2-xTB) and DFT (ωB97X-D/def2-SVP) levels.
+	-	C2DB (Computational 2D Materials Database): ~4,000 two-dimensional materials with computed structural, electronic, magnetic, and optical properties.
+	-	ANI-1x / ANI-1ccx: 5 million DFT and 500k CCSD(T) calculations for organic molecules, supporting machine learning potential development.
+	-	CoRE MOF 2019: 14,763 computation-ready metal-organic frameworks with solvent and charge balancing, suitable for high-throughput screening.
+	-	Catalysis-Hub Surface Reactions: Over 100,000 adsorption and reaction energies on catalytic surfaces, accessible via a Python/GraphQL API.
+	-	ODAC23 (Open DAC 2023): 38 million DFT calculations of CO₂/H₂O adsorption on 8,400 MOFs, aimed at direct-air-capture sorbent discovery.
+	-	MOFX-DB: Over 3 million simulated adsorption data points across 160,000 MOFs and 286 zeolites for various gases.
+  - Enhanced QCML dataset entry with more comprehensive description of coverage and properties
+
+🧪 Experimental Datasets
+	-	HTEM-DB (High-Throughput Experimental Materials Database): More than 140,000 composition–process–property data points from combinatorial sputtering experiments, with optical, electrical, and structural measurements.
+	-	OCx24 (Open Catalyst Experiments 2024): 572 synthesized catalyst inks evaluated with matched XRF/XRD and DFT adsorption energies, bridging the gap between simulation and laboratory data.
+	-	Khazana / Polymer Genome: Approximately 20,000 polymers with DFT-calculated properties and experimental dielectric data, supporting machine learning on soft materials.
+
+📚 Literature-mined & LLM Training Datasets
+	-	ChemRxivQuest: 970 curated question–answer pairs spanning 17 chemistry subfields, designed for retrieval-augmented generation and factuality assessments.
+	-	USPTO-Lowe Reactions (1976–2016): 1.8 million atom-mapped reactions extracted from US patents, serving as a benchmark for reaction prediction and retrosynthesis models.
