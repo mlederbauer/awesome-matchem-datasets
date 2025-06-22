@@ -126,6 +126,7 @@ Want to add a new dataset or improve metadata?
 | [HTEM-DB](https://htem.nrel.gov) | Thin-film composition libraries | 140 k+ samples | Experimental | JSON/API | CC0 | Open |
 | [OCx24](https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data) | Electrocatalyst inks | 572 samples (+DFT) | Experimental | CSV | CC BY 4.0 | Open |
 | [Polymer Genome](https://khazana.gatech.edu/dataset/) | Polymers | 20 k polymers | Experimental + Comp | CSV/JSON | CC BY 4.0 | Open |
+| [CoRE MOF 2024](https://www.ccdc.cam.ac.uk/support-and-resources/downloads/) | Metal-organic frameworks | 40k+ experimental MOFs | Experimental | CIF | Open | Open |
 | [SAIR](https://www.sandboxaq.com/sair) | Protein-ligand binding | 1M+ complexes, 5.2M structures, 2.5TB | Experimental | 3D/CSV | CC BY-NC-SA 4.0 | Open |
 
 
@@ -175,6 +176,7 @@ Want to add a new dataset or improve metadata?
 | [Open Reaction Database (ORD)](https://open-reaction-database.org)   | Synthetic reactions     | ~1M reactions            | Experimental/Lit | JSON     | CC BY 4.0   | Open       |
 | [PatCID (IBM)](https://github.com/DS4SD/PatCID)                   | Chemical image data     | 81M images / 13M mols    | Literature    | PNG/SMILES  | Open        | Open       |
 | [MatScholar](https://matscholar.com)                     | NLP corpus (materials)  | 5M+ abstracts            | Literature    | JSON/Graph  | Open        | Open       |
+| [MatSciKB](TBD)                            | Materials science KB    | 38.5k entries (20k papers, 3.6k Wikipedia, 1.9k textbooks, 10.5k datasets) | Literature    | Structured text  | Open        | Open       |
 
 ---
 
@@ -242,7 +244,7 @@ For changes made before today, please see the [repository commit history](https:
 
 ### 2025-06-20
 
-Added 11 new high-quality datasets spanning polymer science, drug discovery, carbon materials, spectroscopy, and foundation model training:
+Added 13 new high-quality datasets spanning polymer science, drug discovery, carbon materials, spectroscopy, MOF databases, and foundation model training:
 
 #### 🧮 Computational Datasets
 - **NeurIPS Open Polymer Prediction 2025**: Kaggle competition dataset for predicting 5 key polymer properties (Tg, FFV, Tc, density, Rg) from SMILES structures using MD simulation ground truth. Includes ~1,500 test polymers.
@@ -254,12 +256,16 @@ Added 11 new high-quality datasets spanning polymer science, drug discovery, car
 
 #### 🧪 Experimental Datasets  
 - **SAIR (Structurally Augmented IC50 Repository)**: Largest public protein–ligand binding dataset with over 1 million complexes and 5.2 million cofolded 3D structures (2.5TB total). Combines experimental binding affinities from ChEMBL/BindingDB with Boltz-1x predicted structures.
+- **CoRE MOF 2024**: Updated database of over 40,000 experimentally reported metal-organic frameworks from literature through early 2024. Includes pre-computed material properties for high-throughput material-process screening and carbon-capture applications.
 
 #### 📚 LLM Training Datasets
 - **MolTextNet**: 2.5 million high-quality molecule-text pairs from ChEMBL35, featuring GPT-4o-mini generated descriptions 10x longer than existing datasets. Integrates structural features, computed properties, bioactivity data, and synthetic complexity for multimodal molecular modeling.
 - **MolOpt-Instructions**: 1.18 million instruction-based molecule optimization tasks for fine-tuning LLMs on drug discovery. Supports interactive human-machine dialogue for molecule optimization through the DrugAssist framework, enabling expert feedback integration and iterative refinement.
 - **TextEdge**: Benchmark dataset for predicting crystal properties from natural language text descriptions. Demonstrates superior performance of LLM-based approaches over traditional GNN methods, with improvements of 8% on band gap prediction and 65% on unit cell volume prediction.
 - **LAMBench-TrainingSet-v1**: Massive training dataset for Large Atom Models (LAMs) containing 19.8 million valid structures from the OpenLAM Initiative. Includes 1 million structures on the convex hull for advancing generative modeling and materials science applications.
+
+#### 📖 Literature-mined & Text Datasets
+- **MatSciKB**: Comprehensive materials science knowledge base with 38,469 curated entries across 16 categories. Integrates ArXiv papers (20,384), Wikipedia articles (3,620), textbooks (1,930), datasets (10,473), formulas (57), and GPT-generated examples (2,005) with efficient CRUD operations for research applications.
 
 ⸻
 
