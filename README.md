@@ -24,33 +24,15 @@ This project aims to:
 
 ---
 
-## How to Use
-
-- Explore datasets by domain or data type using the tables below
-- Click the **access links** to explore or download the data
-- Sort/filter by quality, size, and suitability for ML models
-- Fork the repo and submit a pull request to add new datasets
-
----
-
 ## Contributing
 
 Want to add a new dataset or improve metadata?
 
 1. Fork the repository
 2. Edit the appropriate dataset list or add a new entry
-3. Submit a pull request with a brief description and source
-4. Use the following fields:
-   - Dataset Name
-   - Domain
-   - Type (`Computational`, `Experimental`, `Literature-mined`)
-   - Size
-   - Access (Open/Restricted/Proprietary)
-   - Format (JSON, CSV, CIF, HDF5, SMILES, etc.)
-   - License
-   - Access Link
-   - Notes or Use Cases
-
+3. Submit a pull request with a brief description and download link
+OR
+4. Submit as an issue
 ---
 
 ## Datasets
@@ -80,6 +62,7 @@ Want to add a new dataset or improve metadata?
 | [C2DB](https://c2db.fysik.dtu.dk) | 2-D materials | ~4 000 entries | Computational | JSON/API | CC BY 4.0 | Open |
 | [ANI-1x / 1ccx](https://qcawebapps.molssi.org/ml_datasets/) | Small organic mol | 5 M (DFT) + 0.5 M (CCSD) | Computational | HDF5 | CC BY-NC 4.0 | Open |
 | [CoRE MOF 2019](https://pubs.acs.org/doi/10.1021/acs.jced.9b00835) | Metal-organic frameworks | 14 763 structures | Computational | CIF/JSON | CC BY 4.0 | Open |
+| [QMOF Database](https://figshare.com/articles/dataset/QMOF_Database/13147324) | Metal-organic frameworks | 20k+ structures (DFT) | Computational | CIF/JSON | CC BY 4.0 | Open |
 | [Catalysis-Hub](https://www.catalysis-hub.org) | Surface reactions | >100 k energies | Computational | JSON/API | CC BY 4.0 | Open |
 | [ODAC23](https://fair-chem.github.io/dac/datasets/odac.html) | MOF + CO₂/H₂O adsorption | 38 M DFT calcs | Computational | HDF5 | CC BY 4.0 | Open |
 | [MOFX-DB](https://doi.org/10.1021/acs.jced.2c00583) | Gas adsorption in MOFs | 3 M isotherm pts | Computational | CSV/HDF5 | CC BY 4.0 | Open |
@@ -244,9 +227,9 @@ For changes made before today, please see the [repository commit history](https:
 
 ### June 2025
 
-Added 26 new high-quality datasets spanning polymer science, drug discovery, carbon materials, spectroscopy, MOF databases, foundation model training, and materials knowledge bases:
+Added 27 new high-quality datasets spanning polymer science, drug discovery, carbon materials, spectroscopy, MOF databases, foundation model training, and materials knowledge bases:
 
-#### 🧮 Computational Datasets (14 datasets)
+#### 🧮 Computational Datasets (15 datasets)
 - **NeurIPS Open Polymer Prediction 2025**: Kaggle competition dataset for predicting 5 key polymer properties (Tg, FFV, Tc, density, Rg) from SMILES structures using MD simulation ground truth. Includes ~1,500 test polymers.
 - **Carbon Data**: 22.9 million atom dataset with synthetic energy labels from C-GAP-17 potential, featuring 546 carbon trajectories across diverse densities and temperatures. Captures nanotubes, graphitic films, diamond, and amorphous carbon environments.
 - **MSR-ACC/TAE25**: Microsoft Research's comprehensive dataset of 76,879 total atomization energies computed at CCSD(T)/CBS level using W1-F12 protocol. Exhaustively covers chemical space for elements up to argon with sub-chemical accuracy (±1 kcal/mol).
@@ -257,6 +240,7 @@ Added 26 new high-quality datasets spanning polymer science, drug discovery, car
 - **C2DB (Computational 2D Materials Database)**: ~4,000 two-dimensional materials with computed structural, electronic, magnetic, and optical properties.
 - **ANI-1x / ANI-1ccx**: 5 million DFT and 500k CCSD(T) calculations for organic molecules, supporting machine learning potential development.
 - **CoRE MOF 2019**: 14,763 computation-ready metal-organic frameworks with solvent and charge balancing, suitable for high-throughput screening.
+- **QMOF Database**: Comprehensive database of quantum-chemical properties for 20,000+ metal-organic frameworks derived from high-throughput periodic density functional theory calculations.
 - **Catalysis-Hub Surface Reactions**: Over 100,000 adsorption and reaction energies on catalytic surfaces, accessible via a Python/GraphQL API.
 - **ODAC23 (Open DAC 2023)**: 38 million DFT calculations of CO₂/H₂O adsorption on 8,400 MOFs, aimed at direct-air-capture sorbent discovery.
 - **MOFX-DB**: Over 3 million simulated adsorption data points across 160,000 MOFs and 286 zeolites for various gases.
